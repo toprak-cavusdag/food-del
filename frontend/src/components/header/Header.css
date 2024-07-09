@@ -38,3 +38,24 @@
   font-size: max(1vw, 13px);
   border-radius: 50px;
 }
+
+@media (max-width: 1050px) {
+
+  .header-contens {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-contens p {
+    display: none;
+  }
+
+  .header-contens {
+    max-width: 65%;
+  }
+
+  .header-contens button{
+    padding: 2vw 4vw;
+  }
+}
